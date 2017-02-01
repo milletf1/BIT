@@ -1,0 +1,46 @@
+﻿.sightingDiv
+{
+    width: 600px;
+    height: 150px;
+    position: relative;  
+    margin: 10px auto;  
+    background-color: #CDB491;    
+}
+
+.imageDiv
+{
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    position: relative;    
+}
+
+.birdImageDiv
+{
+    float: left;    
+    background-color: Green;
+}
+.memberImageDiv
+{
+    float: left;    
+    background-color: Yellow;
+}
+
+.innerDiv
+{
+    margin: 10px;
+    float: right;
+    width: 280px;
+    height: 130px;  
+}
+.nameLabel
+{
+    margin: 20px 0px -20px 0px;
+    position: relative;
+    float: left;    
+    font-family: Gabriola, Serif;
+    font-weight: bold;
+    font-size: 24px;    
+    clear: both;
+}
+

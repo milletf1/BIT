@@ -1,0 +1,138 @@
+﻿.titleWrapper
+{    
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.controlWrapper
+{
+    position: relative;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.inputFont
+{
+    font-family: Buenard, Serif;
+    color: #141346;
+    font-size: 16px;
+}
+
+.titleLabel
+{      
+    display:inline-block;
+    font-family: Gabriola, Serif;
+    color: #141346;
+    font-weight: bold;
+    font-size: 48px;     
+    clear: both;
+}
+.nameLabel
+{
+   font-family: Buenard, Serif;
+   color: #141346;
+   font-size: 16px;
+   font-weight: bold;
+   clear: both;
+}
+
+#addSightingForm
+{
+    width: 480px;
+    margin: 20px auto;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+    background-color: #CDB491;
+}
+
+/*********************************************************************************
+    Margins for the name labels.  Used to set the correct spacing from the inputs.
+*********************************************************************************/
+#chooseBirdLabel
+{
+    margin: 0px 98px 0px 20px;   
+}
+#chooseMemberLabel
+{
+    margin: 0px 70px 0px 20px;    
+}
+#birdEnglish
+{
+    margin: 0px 87px 0px 20px;
+}
+#birdMaori
+{
+    margin: 0px 96px 0px 20px;  
+}
+#birdScientific
+{
+    margin: 0px 75px 0px 20px;  
+}
+/*******************************************************************************/
+
+/***************
+    TextBox Ids.
+***************/
+#tbBirdEnglish
+{}
+
+#tbBirdMaori
+{}
+
+#tbBirdScientific
+{}
+
+#birdListDropDown
+{}
+
+#memberListDropDown
+{}
+
+#rbBirdFromList
+{}
+
+#rbNewBird
+{}
+/**************/
+
+/**********************
+    Radio button style.
+**********************/
+.rButtonStyle input[type="radio"]
+{
+   margin:20px 0px 10px 20px;   
+}
+
+.rButtonStyle label
+{
+    font-family: Buenard, Serif;
+    color: #141346;
+    font-size: 20px;  
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/***********************
+    Submit button style.
+***********************/
+#submitBtn
+{
+    margin: 10px 0px 0px 190px;
+    font-family: Buenard, Serif;
+    font-size: 20px; 
+    font-weight:bold;
+    color: #141346;  
+    background-color: #9B7848;    
+    border: 1px solid #3B241C;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+#submitBtn:hover
+{
+    background-color: #B19671;
+}
+
+

@@ -1,0 +1,5 @@
+﻿<h1>Welcome!</h1><br /> 
+
+<p>The BIT  Bird Watchers club is a group for Otago Polytechnic's Bachelor of Information Technology Students with an interest in bird watching.</p>
+<p>To join contact  <a href="milletf1@student.op.ac.nz">the organizer</a>.</p>
+

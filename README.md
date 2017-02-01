@@ -1,3 +1,3 @@
 # BIT
 
-**Coursework for Bachelor of Information Technology.**
+**Coursework for Bachelor of Information Technology at Otago Polytechnic**

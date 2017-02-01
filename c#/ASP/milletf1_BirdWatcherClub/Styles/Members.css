@@ -1,0 +1,39 @@
+﻿.memberDiv
+{
+    width: 600px;
+    height: 150px;
+    position: relative;  
+    margin: 10px auto;  
+    background-color: #CDB491;
+}
+
+.memberDivImage
+{
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    float: left;   
+}
+
+.nameLabel
+{
+    margin: 10px 50px;
+    font-family: Gabriola, Serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #141346;
+    position: relative;
+    float: left;
+}
+
+.suburbLabel
+{
+    font-family: Gabriola, Serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #141346;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}

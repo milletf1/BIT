@@ -1,0 +1,60 @@
+﻿.birdDiv
+{
+    width: 600px;
+    height: 150px;
+    position: relative;  
+    margin: 10px auto;  
+    background-color: #CDB491;
+}
+
+.birdDivImage
+{
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    float: left;   
+}
+
+.nameLabel
+{
+    position: relative;
+    float: left;    
+    font-family: Gabriola, Serif;
+    font-weight: bold;
+    font-size: 36px;    
+}
+
+.innerDiv
+{
+    position:relative;
+    float: left;
+    margin-top:-10px;
+    width: 400px;
+    height:80px;
+}
+
+.headerLabel
+{
+    position: relative;    
+    float: left; 
+    font-family: Buenard, Serif;
+    color: #141346;
+    font-weight: bold;
+    font-size: 14px;
+    clear:left;
+    padding:10px 0px;
+}
+.fieldLabel
+{
+    position: relative;    
+    float: left;  
+    left: 10px;
+    font-family: Buenard, Serif;
+    color: #141346;
+    font-size: 14px;
+    padding:10px 0px;
+}
+
+
+

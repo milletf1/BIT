@@ -1,0 +1,59 @@
+﻿h1
+{  
+    overflow:hidden;
+    padding-left: 10px;
+    white-space: nowrap;
+    font-size: 72px;  
+    color:white;     
+}
+
+h2
+{
+    text-align: center;
+    font-size: 48px;    
+    color:#3A2508;    
+}
+
+h3
+{
+    text-align: center;
+    font-size: 32px;   
+    color:#062819;  
+}
+
+#header 
+{
+    height: 200px;    
+   background-image:url("/Content/img/lotsofhorses.jpg");
+   background-size: 100%;
+   background-repeat: no-repeat;      
+}
+
+body
+{
+   background:url("/Content/img/10-Subtle-Textures06.jpg");
+    background-repeat:repeat;
+    color: #062819; 
+}
+
+th, td, label, strong, h3
+{
+   color: #062819;   
+}
+
+#headerImg
+{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+a 
+{
+    font-size: 24px;   
+    color: #444294;
+}
+
+a:hover
+{
+    color: #595894;
+}

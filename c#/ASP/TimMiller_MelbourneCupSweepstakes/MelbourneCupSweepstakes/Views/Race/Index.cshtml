@@ -1,0 +1,87 @@
+﻿@model MelbourneCupSweepstakes.Models.DbView
+           
+<!DOCTYPE html> 
+<html lang="en">  
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"  type="text/css" href="/Content/css/bootstrap.min.css">
+        <link rel="stylesheet"  type="text/css" href="/Content/css/custom.css">
+        <title>Race Results</title>
+    </head>
+    <body>
+
+        <div class="container-fluid"><!--Container-->
+    
+            <div class="row" id="header"><!-- Header-->
+                <img src="../../Content/img/logo4.png" height="113px" width="1093px" alt=""  id="headerImg"/>
+            </div><!--End Header-->
+
+            <div class="row"><!--Nav bar-->
+                <a class="navbar-text" href="../Home/Index">Home</a>
+                <a class="navbar-text" href="">Race Results</a>
+            </div><!--End Nav bar-->
+
+            <div class="row"><!-- Body-->                            
+                <div class="col-md-1"></div>
+
+                <div class="col-md-5"><!--Outer Left Column-->   
+                    <div class="col-md-1"></div>  
+                    <div class="col-md-9"><!--Inner Left Column-->
+                        <h2>Prize Payout</h2> <br />
+                        <table class="table"><!--Winnings Table-->
+                            <tr><th>Person</th><th>Email Address</th><th>Prize</th></tr><!--table headers-->
+                            <!--Iterate through all players-->
+                            @foreach (MelbourneCupSweepstakes.Models.Player p in Model.allPlayers)
+                            {
+                                if (p.PrizeMoney > 0)
+                                {
+                                    <tr>
+                                        <td class="col-md-4">@p.Name</td>
+                                        <td class="col-md-6">@p.EmailAddress</td>           
+                                        <td class="col-md-2">$@p.PrizeMoney</td>
+                                    </tr>
+                                }
+                            }
+                        </table><br /><br /><br /><br /><br /><br /><!--End Winnings Table --> 
+                        <h2>Prize Pool</h2><h3>$@ViewBag.PrizePool</h3>
+                        <br /><br /><br /><br /><br /><br />    
+                    </div><!--End inner Left Column-->
+               </div><!-- End Outer Left Column-->
+
+               <div class="col-md-1"></div>
+                    <div class="col-md-5"><!--outer Right Column-->
+                        <div class="col-md-10"><!--inner Right Column-->
+                        <h2>Race Results</h2><br />
+                        <table class="table"><!--Race results table-->
+                        <tr><th>Place</th><th>Horse</th><th>Bettor</th><th>Payout</th></tr><!--table headers-->  
+                        <!--Iterate through all horses-->                              
+                        @foreach (MelbourneCupSweepstakes.Models.Horse h in Model.allHorses)
+                        { 
+                            if(h.Place > 0)
+                            {
+                                <tr>              
+                                    <td class="col-md-2">@h.Place</td>          
+                                    <td class="col-md-4">@h.Name</td>
+                                    <td class="col-md-4"><!--Display the betting player if it exists-->
+                                    @if (h.PlayerID != null)
+                                    {
+                                        @Html.DisplayFor(m => m.allPlayers.Find(p => p.PlayerID == h.PlayerID).Name)
+                                    } 
+                                    </td>         
+                                    <td class="col-md-2"><!-- Display the gorse payout if it exists-->
+                                    @if (h.BetPayout > 0)
+                                    {                                        
+                                        @Html.Raw("$" + h.BetPayout)
+                                    }
+                                    </td>    
+                                </tr>
+                            }
+                        }
+                        </table><!--End Race results table-->
+                        </div><!--End inner right column-->
+                    </div><!--End Outer Right Column-->  
+            </div><!--End Body-->
+        </div><!--End Container-->
+    </body>
+</html>
