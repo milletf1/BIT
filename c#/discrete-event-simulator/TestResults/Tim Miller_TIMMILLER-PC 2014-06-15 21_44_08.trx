@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8cd68bb2-96c2-4052-9025-4a7537a9d0f5" name="Tim Miller@TIMMILLER-PC 2014-06-15 21:44:08" runUser="TimMiller-PC\Tim Miller" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8ea2c6a7-f67f-4dd3-aa3f-1a403deb484c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tim Miller_TIMMILLER-PC 2014-06-15 21_44_08">
+      <DeploymentItem filename="H:\ThirdYear\OOSD\DiscreteEventSimulator\DiscreteEventSimulator\bin\Debug\DiscreteEventSimulator.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-06-15T21:44:08.9929464+12:00" queuing="2014-06-15T21:44:09.0229465+12:00" start="2014-06-15T21:44:09.0229465+12:00" finish="2014-06-15T21:44:09.2729468+12:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TIMMILLER-PC" outcome="Warning" timestamp="2014-06-15T21:44:09.0229465+12:00">
+        <Text>Deployment is currently disabled. The deployment item 'DiscreteEventSimulator.exe' on test 'DESTest.StatisticsHandlerTest.CalculateRepUtiliziationTestDivisionByZero' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculateRepUtiliziationTestDivisionByZero" storage="h:\thirdyear\oosd\discreteeventsimulator\destest\bin\debug\destest.dll" id="7d9c122f-0bc8-d2ad-238b-bac06f9886da">
+      <DeploymentItems>
+        <DeploymentItem filename="DiscreteEventSimulator.exe" />
+      </DeploymentItems>
+      <Execution id="9cd39b89-1a3d-4554-afad-dab95a888979" />
+      <TestMethod codeBase="H:/ThirdYear/OOSD/DiscreteEventSimulator/DESTest/bin/Debug/DESTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DESTest.StatisticsHandlerTest, DESTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateRepUtiliziationTestDivisionByZero" />
+    </UnitTest>
+    <UnitTest name="CalculateAverageNumberWaitingTestDivisionByZero" storage="h:\thirdyear\oosd\discreteeventsimulator\destest\bin\debug\destest.dll" id="ff6bf428-a721-e54b-e7ec-e6c86101c17a">
+      <DeploymentItems>
+        <DeploymentItem filename="DiscreteEventSimulator.exe" />
+      </DeploymentItems>
+      <Execution id="c1adf2b3-f6e7-4a6e-baa9-55cdf86f1d2f" />
+      <TestMethod codeBase="H:/ThirdYear/OOSD/DiscreteEventSimulator/DESTest/bin/Debug/DESTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DESTest.StatisticsHandlerTest, DESTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateAverageNumberWaitingTestDivisionByZero" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7d9c122f-0bc8-d2ad-238b-bac06f9886da" executionId="9cd39b89-1a3d-4554-afad-dab95a888979" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff6bf428-a721-e54b-e7ec-e6c86101c17a" executionId="c1adf2b3-f6e7-4a6e-baa9-55cdf86f1d2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9cd39b89-1a3d-4554-afad-dab95a888979" testId="7d9c122f-0bc8-d2ad-238b-bac06f9886da" testName="CalculateRepUtiliziationTestDivisionByZero" computerName="TIMMILLER-PC" duration="00:00:00.0814192" startTime="2014-06-15T21:44:09.0429465+12:00" endTime="2014-06-15T21:44:09.2229468+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cd39b89-1a3d-4554-afad-dab95a888979">
+    </UnitTestResult>
+    <UnitTestResult executionId="c1adf2b3-f6e7-4a6e-baa9-55cdf86f1d2f" testId="ff6bf428-a721-e54b-e7ec-e6c86101c17a" testName="CalculateAverageNumberWaitingTestDivisionByZero" computerName="TIMMILLER-PC" duration="00:00:00.0007704" startTime="2014-06-15T21:44:09.2229468+12:00" endTime="2014-06-15T21:44:09.2229468+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1adf2b3-f6e7-4a6e-baa9-55cdf86f1d2f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

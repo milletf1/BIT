@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DiscreteEventSimulator.ArriveAtCallCenter" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAIAA=</HashCode>
+      <FileName>ArriveAtCallCenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.Calendar" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACAhAAAIIAAAAAAAIAAAgAAACAAAAAAA=</HashCode>
+      <FileName>Calendar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.CalendarDisplay" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgwAAQAgCAAAAAgAAAAAAASEAAAAAAABIAABAAA=</HashCode>
+      <FileName>CalendarDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.CompleteIVRService" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAgAIAA=</HashCode>
+      <FileName>CompleteIVRService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.CompleteServiceDesk" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAA=</HashCode>
+      <FileName>CompleteServiceDesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.Dice" Collapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAIAAAAAAAAAgAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Dice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.EndQueueWait" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>EndQueueWait.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.Entity" Collapsed="true">
+    <Position X="8.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAABQAAAAQAAAgAAgAAACIAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.EntityFactory" Collapsed="true">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAIAAEAAAAAAAAQEQAAAAAAAAACAAAAACAAAAAAA=</HashCode>
+      <FileName>EntityFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.EventCode" Collapsed="true">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAASAAE=</HashCode>
+      <FileName>EventCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.EventDisplay" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.Form1" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wxABIITAOgF0BQkSwqqNQDGABDUKAkAAMZDBGGLETw=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.GraphicDisplay" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAISgA0QAJgQAQIQAKQCmICSJQCAiwABABATEEQYIQ=</HashCode>
+      <FileName>GraphicDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.IVRUnit" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAgAgAAABAAACAAAAAAAACIAgAAAAAAA=</HashCode>
+      <FileName>IVRUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.ProductData" Collapsed="true">
+    <Position X="10" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAIAAAAAA=</HashCode>
+      <FileName>ProductData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.Program" Collapsed="true">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.Queue" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAgAAAAIQBAAAAAAAAAAAAAIAAAAAAEAA=</HashCode>
+      <FileName>Queue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.QueueDisplay" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QueueDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.ServiceDesk" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CZAIAAgQAAAAAAggAAABAAAAAABAAAAACIAkAAAAAAI=</HashCode>
+      <FileName>ServiceDesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.ServiceRep" Collapsed="true">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAABAAAAAAAAAAAACAQAAAgAAAAAAAAAEAAAABA=</HashCode>
+      <FileName>ServiceRep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.SimEvent" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABQAAAAAAQAAAAAAAAAAISAAACAgAAABAAAAAQ=</HashCode>
+      <FileName>SimEvent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DiscreteEventSimulator.SimEventFactory" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAQhgAIAAAABAAAAAAAAAIAAAAAACAA=</HashCode>
+      <FileName>SimEventFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.Simulation" Collapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAkAQAIBAAAAFAAQAAgAAoAQAAAQUAIAgIAUAIAA=</HashCode>
+      <FileName>Simulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.StatisticsDisplay" Collapsed="true">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAggQASAAgAQAAAAACABAAQAoBgAkAyAIAoAgAAg=</HashCode>
+      <FileName>StatisticsDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.StatisticsHandler" Collapsed="true">
+    <Position X="10" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yBAIiARaEAgBEABgQQiQAEwAEAAJABAEAARAAAgASIA=</HashCode>
+      <FileName>StatisticsHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.Properties.Resources" Collapsed="true">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscreteEventSimulator.Properties.Settings" Collapsed="true">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
