@@ -1,0 +1,384 @@
+/**************
+ * global style
+ *************/
+
+body, html 
+{
+    overflow-x:hidden;
+    background-color: #77A2C6;
+}
+
+img
+{
+    border: 2px solid black;   
+    margin-bottom: 2em;
+}
+
+h1
+{
+    margin-top: 2em; 
+	margin-bottom: 1.2em;
+    text-align:center;  
+}  
+
+h2
+{
+	margin-top: 0px;
+}
+
+h3 
+{
+    color: #102D45;
+}
+
+/*
+I have changed the style of the radio buttons 
+so I can resize them in response to different screen sizes
+*/
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio] + span {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0.5 0.5em;    
+    vertical-align: middle;
+}
+
+input[type=radio]:checked + span {
+    background-color: white;
+}
+
+input[type=submit] 
+{
+    width:120px;
+    height:60px;
+    float: right;
+}
+
+/*
+class for div's that contain user inputs (usually radio buttons)
+*/
+.rBtnGroup
+{
+    margin-top: 5em;   
+}  
+ 
+/* 
+sets radio button size used for choosing dog attributes
+*/
+.rBtn 
+{
+    width: 1em;
+    height: 1em;
+}
+
+
+#btnBackContainer
+{
+	margin-top: 4.3em;   
+}
+
+
+#header 
+{
+    font-size: 6em;        
+    color: #6A93B4;
+    padding: 1% 0 1% 150px;
+    background-color: #30506A;
+}
+
+/*
+form that is used for dog preference submission
+*/  
+#inputForm
+{
+	margin-top: 5em;
+}
+/*
+the column used to display a selected dogs attributes.
+*/
+#dataCol 
+{
+    font-size: 18px;
+    line-height:2em;
+}
+
+/******************
+ * end global style
+ *****************/
+
+
+/**************
+ * iPhone style
+ *************/
+@media only screen and (max-width: 480px) 
+{   
+    
+    /*
+    change the size of the size select input.
+    */
+    select 
+    {
+        height: 36px;
+        padding-top: 10px;
+		display: block;
+		clear: both;
+		float: left;
+    }
+     
+    #dataCol 
+    {
+        margin-top: 1em;
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+    /*
+    change the size of the header.
+    */
+    #header 
+    {
+        font-size: 2.2em !important;
+        color: #6A93B4;
+        padding-left: 10% !important;        
+        background-color: #30506A;
+    }
+	
+	
+    
+    #inputForm 
+    {		
+        margin-left: 1em;
+		margin-top: 0;
+    }     
+    
+    .btnInput
+    {
+        margin-top: 0;  
+        margin-bottom: 1em; 
+    }
+    
+    h2
+    {
+        margin-top: 0;
+    }   
+    /*
+    change radio button size
+    */
+    .rBtn 
+    {
+        width: 40px;
+        height: 40px;
+    } 
+    /*
+    change the size of the submit buttons.
+    */
+    input[type=submit] 
+    {
+        margin: 2em auto;
+        width: 90%;
+        height:60px;
+        float: left;	
+    }	
+	
+	#btnSubmitContainer
+	{
+		width: 102%;
+		margin-left: -1.5em;
+		margin-top: 30px;
+		display: block;
+	}
+	#btnSubmit
+	{
+		width: 102%;
+		clear: both;
+	}
+	
+	#btnBackContainer
+	{
+		width: 100%;
+	}
+	#backBtn
+	{
+		width: 100%;
+	}
+	
+}/*end iPhone style*/
+
+/*****************************
+	Tablet style.  768px width
+*****************************/
+@media only screen and (max-width: 768px)and (min-width : 481px) 
+{
+    /*
+    change the size of the size select input.
+    */
+    select 
+    {
+        height: 36px;
+		width: 120px;
+        padding-top: 10px;
+    }
+    /*
+    change the size of the header.
+    */
+    #header 
+    {
+        font-size: 5em;        
+        color: #6A93B4;
+        padding: 1% 0 1% 150px;
+        background-color: #30506A;
+    } 
+	
+	
+	img
+	{
+		margin-left: 1em;
+	}
+	
+	/*
+	inputForm wraps all the form inputs in a div
+	*/
+	#inputForm {
+		margin-left: 3em;
+		margin-top: 20px;
+	}
+
+    #dataCol 
+    {
+        margin-top: -1em;
+        line-height: 1.6em;
+    }
+	
+	 /*
+    change the size of the back submit button.
+    */
+    #backBtn 
+    {
+		margin-top: 6.05em;
+		margin-right: 3.45em;
+    }
+	
+	#btnSubmitContainer 
+	{ 
+		margin-top: -6.6em; 
+		margin-left: -4.4em;
+	}
+    
+/*
+rBtnGroup wraps a section of radio buttons.
+*/
+    .rBtnGroup
+    {
+        margin-top: 2em;   
+    } 
+    
+    .btnInput
+    {
+        margin-top: 4em; 
+        margin-bottom: 2em;  
+    }
+
+	h1
+	{ 
+		margin-top: 3.5em !important; 
+		margin-bottom: 2.5em !important; 
+	}
+	
+    h2
+    {
+        margin-top: 1em;
+    }
+    
+    .rBtn 
+    {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+  
+/*
+ iPad style @ 1024px  THIS SECTION IS DONE
+ */
+@media only screen and (max-width: 1024px) and (min-width: 769px) 
+{
+     /*
+    change the size of the size select input.
+    */
+    select 
+    {
+        height: 36px;
+		width: 120px;
+        padding-top: 10px;
+    }
+    /*
+    change the size of the header.
+    */
+    #header 
+    {
+        font-size: 5em;        
+        color: #6A93B4;
+        padding: 1% 0 1% 150px;
+        background-color: #30506A;
+    } 
+
+	#btnSubmit 
+	{ 
+		margin-top: -4.8em; 
+		margin-right: 5em; 
+	}
+    /*
+    change the size of the back submit button.
+    */
+    #btnBackContainer
+    {
+		padding-top: 0.15em;
+		padding-right: 5.85em;
+    }
+	/*
+	inputForm wraps all the form inputs in a div
+	*/
+	#inputForm
+	{
+		margin-top: 2em;
+	}
+    
+    #dataCol 
+    {
+        margin-top: -1em;
+        line-height: 1.6em;
+    }
+    
+    .rBtnGroup
+    {
+        margin-top: 1em;   
+    } 
+    
+    .btnInput
+    {
+        margin-top: 4em; 
+        margin-bottom: 2em;  
+    }
+
+	
+   
+    
+    .rBtn 
+    {
+        width: 40px;
+        height: 40px;
+    }
+}
+/*end iPad style @ 1024px*/
+
+
+
+
+
+
+
+

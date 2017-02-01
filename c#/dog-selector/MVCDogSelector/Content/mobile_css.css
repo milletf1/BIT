@@ -1,0 +1,94 @@
+
+/****************************
+  iPhone style (320x480 px).
+ ***************************/
+@media only screen and (max-width: 480px) 
+{   
+    /* Changes the size of the size select input. */
+    select 
+    {
+        height: 36px;
+        padding-top: 10px;
+		display: block;
+		clear: both;
+		float: left;
+    }
+     
+	/* Changes the line height and top margin of the dog attribute display div. */ 
+    #dataCol 
+    {
+        margin-top: 1em;
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+    
+	/* Changes the size of the header. */
+    #header 
+    {
+        font-size: 2.2em !important;
+        color: #6A93B4;
+        padding-left: 10% !important;        
+        background-color: #30506A;
+    }
+	
+	/* Changes the margin of the dog preferences selection form on the index page. */    
+    #inputForm 
+    {		
+        margin-left: 1em;
+		margin-top: 0;
+    }     
+    
+    /* Changes h2's top margin. */
+    h2
+    {
+        margin-top: 0;
+    }   
+    
+    /* Changes radio button size. */
+    .rBtn 
+    {
+        width: 40px;
+        height: 40px;
+    } 
+    
+    /* Changes the size of the submit and back buttons. */
+    input[type=submit] 
+    {
+        margin: 2em auto;
+        width: 90%;
+        height:60px;
+        float: left;	
+    }	
+	
+	/* Changes the dimensions and position of the submit button container. */
+	#btnSubmitContainer
+	{
+		width: 102%;
+		margin-left: -1.5em;
+		margin-top: 30px;
+		display: block;
+	}
+	
+	/* Changes the width of the submit button. */
+	#btnSubmit
+	{
+		width: 102%;
+		clear: both;
+	}
+	
+	/* Changes the width of the back button container. */
+	#btnBackContainer
+	{
+		width: 100%;
+	}
+	
+	/* Changes the width of the back button. */
+	#backBtn
+	{
+		width: 100%;
+	}
+	
+}
+/*******************************
+ End iPhone style (320x480 px).
+*******************************/

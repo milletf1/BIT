@@ -1,0 +1,88 @@
+﻿/*global style*/
+#dataCol 
+{
+    font-size: 18px;
+}
+
+h3 
+{
+    color: #102D45;
+}
+
+h1 
+{
+    text-align:center;
+    margin-bottom:2em;
+}
+body 
+{
+    background-color: #77A2C6;
+}
+/*end global style*/
+
+
+/*iPhone style*/
+@media only screen and (max-width: 480px) 
+{
+    /*creates a small space between the submit button and the last form question*/
+    #btnSubmit 
+    {
+      margin-top:2em; 
+    }
+    
+    #dataCol 
+    {
+        margin-top:10em !important;
+    }
+    
+    #header 
+    {
+        font-size: 2.2em !important;
+        color: #6A93B4;
+        padding-left: 10% !important;        
+        background-color: #30506A;
+    }
+    
+    #inputForm 
+    {
+        margin-left: 1em;
+    }
+    
+    input[type="radio"] + label {
+        margin: 10px 0;
+    }     
+}/*end iPhone style*/
+
+
+/*iPad style*/
+@media only screen and (max-width: 1024px)
+{
+    #header 
+    {
+        font-size: 5em;        
+        color: #6A93B4;
+        padding: 1% 0 1% 150px;
+        background-color: #30506A;
+    }   
+}
+/*end iPad style*/
+
+/*desktop style*/
+@media only screen and (min-width: 1025px)
+{
+  #header 
+    {
+        font-size: 6em;        
+        color: #6A93B4;
+        padding: 1% 0 1% 150px;
+        background-color: #30506A;
+    }     
+}
+/*end desktop style*/
+
+
+
+
+
+
+

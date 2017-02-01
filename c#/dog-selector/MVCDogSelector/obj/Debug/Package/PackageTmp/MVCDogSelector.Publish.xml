@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="ftp://webthree.ict.op.ac.nz" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="webthree.ict.op.ac.nz/milletf" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FTP" replaceMatchingFiles="False" userName="webthree.ict.op.ac.nz|milletf1" savePWD="False" userPWD="" SelectedForPublish="True" />
+</publishData>

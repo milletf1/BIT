@@ -1,0 +1,41 @@
+﻿@model MVCDogSelector.Models.Dog
+@{
+    Layout = null;
+}
+<!DOCTYPE html />
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <link rel="Stylesheet" type="text/css" href="@Url.Content("~/Content/bootstrap-3.1.1-dist/css/bootstrap.min.css")" />
+    <link rel="Stylesheet" type="text/css" href="@Url.Content("~/Content/custom.css")" />
+<title>Dog Result</title>
+</head>
+<body>
+<div class="fluid-container hidden-xs">
+    <div class="row" id="header">
+        Dog Selector
+   </div>
+</div><!--end header-->
+<div class="container">
+    <div class="row">
+        <h1>Our Recommended Dog: </h1>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <img src="@Url.Content("~/Content/DogImages/")@Model.ImageName" alt="" width="100%" />
+    </div>
+    <div class="col-xs-12 col-sm-6" id="dataCol"><!--start data column-->
+        <div class="col-xs-12"><h2> @Model.DisplayName</h2></div>
+        <div class="col-xs-12 col-sm-6"><strong>Drools:</strong></div><div class="col-xs-12 col-sm-6">@Model.Drools</div><br /><br />
+         <div class="col-xs-12 col-sm-6"><strong>Good with children:</strong></div><div class="col-xs-12 col-sm-6"> @Model.GoodWithChildren</div><br /><br />
+         <div class="col-xs-12 col-sm-6"><strong>Activity level:</strong></div><div class="col-xs-12 col-sm-6"> @Model.ActivityLevel</div><br /><br />
+         <div class="col-xs-12 col-sm-6"><strong>Shedding level:</strong></div><div class="col-xs-12 col-sm-6"> @Model.SheddingLevel</div><br /><br />
+         <div class="col-xs-12 col-sm-6"><strong>Grooming level:</strong></div><div class="col-xs-12 col-sm-6"> @Model.GroomingLevel</div><br /><br />
+         <div class="col-xs-12 col-sm-6"><strong>Intelligence level:</strong></div><div class="col-xs-12 col-sm-6"> @Model.IntelligenceLevel</div><br /><br />
+         <div class="col-xs-12 col-sm-6"><strong>Coat Length:</strong></div><div class="col-xs-12 col-sm-6"> @Model.CoatLength</div><br /><br />
+         <div class="col-xs-12 col-sm-6"><strong>Dog Size:</strong></div><div class="col-xs-12 col-sm-6"> @Model.Size</div>
+    </div><!--end data column-->
+    </div>
+</body>
+</html>

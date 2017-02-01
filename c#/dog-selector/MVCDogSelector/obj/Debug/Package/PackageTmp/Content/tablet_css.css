@@ -1,0 +1,153 @@
+/*************************
+ Tablet style (Portrait).
+*************************/
+@media only screen and (max-width: 768px)and (min-width : 481px) 
+{
+    /* Changes the size of the size select input. */
+    select 
+    {
+        height: 36px;
+		width: 120px;
+        padding-top: 10px;
+    }
+    
+    /* Changes the size of the header. */
+    #header 
+    {
+        font-size: 5em;        
+        color: #6A93B4;
+        padding: 1% 0 1% 150px;
+        background-color: #30506A;
+    } 
+	
+	/* Changes h1's position. */
+	h1
+	{ 
+		margin-top: 3.5em !important; 
+		margin-bottom: 2.5em !important; 
+	}
+	
+	/* Changes h2's postion. */
+    h2
+    {
+        margin-top: 1em;
+    }
+	
+	/* Moves the dog image left. */
+	img
+	{
+		margin-left: 1em;
+		margin-top: 0.8em;
+	}
+	
+	/* Changes the margin of the dog preferences selection form on the index page. */
+	#inputForm {
+		margin-left: 3em;
+		margin-top: 20px;
+	}
+
+    /* Changes the line height and top margin of the dog attribute display div. */
+    #dataCol 
+    {
+        margin-top: -1.2em;
+        line-height: 1.6em;
+    }
+	
+	/* Changes the position of the back button. */
+    #backBtn 
+    {
+		margin-top: 6.05em;
+		margin-right: 3.45em;
+    }
+	
+	/* Changes the position of the back button's container. */
+	#btnSubmitContainer 
+	{ 
+		margin-top: -6.85em; 
+		margin-left: -4.4em;
+	}
+    
+    /* Changes the top margin of the radio button grouping div. */
+    .rBtnGroup
+    {
+        margin-top: 2em;   
+    } 
+    
+    /* Changes radio button size. */        
+    .rBtn 
+    {
+        width: 40px;
+        height: 40px;
+    }
+    
+    
+}
+/*****************************
+ End Tablet style (Portrait).
+*****************************/
+
+/**************************
+ Tablet style (Landscape).
+**************************/
+@media only screen and (max-width: 1024px) and (min-width: 769px) 
+{
+    /* Changes the size of the size select input. */
+    select 
+    {
+        height: 36px;
+		width: 120px;
+        padding-top: 10px;
+    }
+    
+    /* Changes the size of the header. */
+    #header 
+    {
+        font-size: 5em;        
+        color: #6A93B4;
+        padding: 1% 0 1% 150px;
+        background-color: #30506A;
+    } 
+
+    /* Changes the position of the submit button. */
+	#btnSubmit 
+	{ 
+		margin-top: -4.8em; 
+		margin-right: 5em; 
+	}
+   
+    /* Changes the position of the back button's container. */
+    #btnBackContainer
+    {
+		margin-top: 3.75em;
+		padding-right: 5.85em;
+    }
+	
+	/* Changes the margin of the dog preferences selection form on the index page. */
+	#inputForm
+	{
+		margin-top: 2em;
+	}
+    
+    /* Changes the line height and top margin of the dog attribute display div. */
+    #dataCol 
+    {
+        margin-top: -0.3em;
+        line-height: 1.6em;
+    }
+    
+    /* Changes the top margin of the radio button grouping div. */
+    .rBtnGroup
+    {
+        margin-top: 1em;   
+    } 
+  
+    /* Changes radio button size. */
+    .rBtn 
+    {
+        width: 40px;
+        height: 40px;
+    }
+}
+/******************************
+ End Tablet style (Landscape).
+******************************/

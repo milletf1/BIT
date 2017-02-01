@@ -1,0 +1,53 @@
+﻿@model MVCDogSelector.Models.Dog
+@{
+    Layout = null;
+}
+<!DOCTYPE html />
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <link rel="Stylesheet" type="text/css" href="@Url.Content("~/Content/bootstrap-3.1.1-dist/css/bootstrap.min.css")" />
+    <link rel="Stylesheet" type="text/css" href="@Url.Content("~/Content/global_css.css")" />
+    <link rel="Stylesheet" type="text/css" href="@Url.Content("~/Content/mobile_css.css")" />
+    <link rel="Stylesheet" type="text/css" href="@Url.Content("~/Content/tablet_css.css")" />
+	
+<title>Dog Result</title>
+</head>
+<body>
+<div class="fluid-container">
+    <div class="row" id="header">
+        Dog Selector
+   </div>
+</div><!--end header-->
+<div class="container">
+    <div class="row">
+        <h1>Our Recommended Dog:</h1>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <img src="@Url.Content("~/Content/DogImages/")@Model.ImageName" alt="" width="100%" class="imgClass"/>
+    </div>
+    <div class="col-xs-12 col-sm-6" id="dataCol"><!--start data column-->
+    <div class="row">
+        <div class="col-xs-12"><h2> @Model.DisplayName</h2></div>
+         <div class="col-xs-8 col-sm-7"><strong>Drools:</strong></div><div class="col-xs-4 col-sm-4">@Model.Drools</div>
+         <div class="col-xs-8 col-sm-7"><strong>Good with children:</strong></div><div class="col-xs-3 col-sm-4"> @Model.GoodWithChildren</div>
+         <div class="col-xs-8 col-sm-7"><strong>Activity level:</strong></div><div class="col-xs-3 col-sm-4"> @Model.ActivityLevel</div>
+         <div class="col-xs-8 col-sm-7"><strong>Shedding level:</strong></div><div class="col-xs-3 col-sm-4"> @Model.SheddingLevel</div>
+         <div class="col-xs-8 col-sm-7"><strong>Grooming level:</strong></div><div class="col-xs-3 col-sm-4"> @Model.GroomingLevel</div>
+         <div class="col-xs-8 col-sm-7"><strong>Intelligence level:</strong></div><div class="col-xs-3 col-sm-4"> @Model.IntelligenceLevel</div>
+         <div class="col-xs-8 col-sm-7"><strong>Coat Length:</strong></div><div class="col-xs-3 col-sm-4"> @Model.CoatLength</div>
+         <div class="col-xs-8 col-sm-7"><strong>Dog Size:</strong></div><div class="col-xs-3 col-sm-4"> @Model.Size</div>
+         @using (Html.BeginForm("Index", "Dog", FormMethod.Get))
+     { 
+        <div class="col-xs-12" id="btnBackContainer"><input type="submit" id="backBtn" value="Back" class="btn btn-primary btn-lg"  /></div>
+    }
+     </div>            
+    </div><!--end data column-->
+    </div><!--end row-->
+     <div class="row">
+     
+    </div>
+</body>
+</html>

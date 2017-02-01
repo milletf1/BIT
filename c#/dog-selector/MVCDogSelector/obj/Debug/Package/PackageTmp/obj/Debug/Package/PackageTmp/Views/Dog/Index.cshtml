@@ -1,0 +1,197 @@
+﻿@model MVCDogSelector.Models.Dog    
+           
+@{
+    Layout = null;
+}
+<!DOCTYPE html />
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+
+    <link rel="Stylesheet" type="text/css" href="@Url.Content("~/Content/bootstrap-3.1.1-dist/css/bootstrap.min.css")" />
+    <link rel="Stylesheet" type="text/css" href="@Url.Content("~/Content/custom.css")" />
+
+<title>Dog Form</title>
+</head>
+<body>
+<div class="fluid-container">
+    <div class="row">
+        <div class="col-xs-12" id="Header">Dog Selector</div>
+   </div>
+</div>
+<div class="container">
+    <div class="row" id="inputForm">
+        @using (Html.BeginForm("Validate", "Dog", FormMethod.Post))
+        {
+            <!--good with children-->
+            <div class="formInput col-xs-12 col-sm-4 col-md-3">
+            <h3>Good with children:</h3>
+                <label>
+                    @Html.RadioButtonFor(Model => Model.GoodWithChildren, true, new { Checked = true })
+                    <span class="rBtn"></span>Yes
+                </label>
+                <br />      
+                <label>
+                    @Html.RadioButtonFor(Model => Model.GoodWithChildren, false)
+                     <span class="rBtn"></span>No                   
+                </label>
+                 @Html.ValidationMessageFor(Model => Model.GoodWithChildren)
+                
+            </div>
+            
+            <!-- drools-->
+            <div class="formInput col-xs-12 col-sm-4 col-md-3">
+            <h3>Drooling:</h3>
+                <label>
+                    @Html.RadioButtonFor(Model => Model.Drools, true, new { Checked = true })
+                    <span class="rBtn"></span>Don't mind
+                </label>
+                <br />      
+                <label>    
+                    @Html.RadioButtonFor(Model => Model.Drools, false)
+                    <span class="rBtn"></span>No thanks                    
+                </label>
+                @Html.ValidationMessageFor(Model => Model.Drools)
+			</div>
+            
+            <!--coat level-->
+            <div class="formInput col-xs-12 col-sm-4 col-md-3">
+            <h3>Coat length:</h3>
+                <label>
+                    @Html.RadioButtonFor(Model => Model.CoatLength, MVCDogSelector.Models.ELength.Short, new { Checked = true })
+                    <span class="rBtn"></span>Short
+                </label>
+                <br />      
+                <label>
+            
+                    @Html.RadioButtonFor(Model => Model.CoatLength, MVCDogSelector.Models.ELength.Medium)
+                    <span class="rBtn"></span>Medium
+                </label>                 
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.CoatLength, MVCDogSelector.Models.ELength.Long)
+                    <span class="rBtn"></span>Long
+                </label>
+                <br />
+                    @Html.ValidationMessageFor(Model => Model.GoodWithChildren)
+			</div>
+            <!--activity level-->
+            <div class="formInput col-xs-12 col-sm-4 col-md-3">
+            <h3>Activity level:</h3>
+                <label>
+                    @Html.RadioButtonFor(Model => Model.ActivityLevel, MVCDogSelector.Models.EScale.Low)
+                     <span class="rBtn"></span>Low
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.ActivityLevel, MVCDogSelector.Models.EScale.Medium)
+                    <span class="rBtn"></span>Medium
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.ActivityLevel, MVCDogSelector.Models.EScale.High)
+                    <span class="rBtn"></span>High
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.ActivityLevel, MVCDogSelector.Models.EScale.NoPref, new { Checked = true })
+                    <span class="rBtn"></span>No preference
+                </label>
+                <br />                  
+                    @Html.ValidationMessageFor(Model => Model.GoodWithChildren)<br />
+			</div>
+            <!--shedding level-->
+            <div class="formInput col-xs-12 col-sm-4 col-md-3">
+            <h3>Shedding level:</h3>
+                <label>
+                    @Html.RadioButtonFor(Model => Model.SheddingLevel, MVCDogSelector.Models.EScale.Low)
+                    <span class="rBtn"></span>Low
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.SheddingLevel, MVCDogSelector.Models.EScale.Medium)
+                    <span class="rBtn"></span>Medium
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.SheddingLevel, MVCDogSelector.Models.EScale.High)
+                    <span class="rBtn"></span>High
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.SheddingLevel, MVCDogSelector.Models.EScale.NoPref, new { Checked = true })
+                   <span class="rBtn"></span>No preference
+                </label>
+                <br /> 
+                    @Html.ValidationMessageFor(Model => Model.GoodWithChildren)<br />
+			</div>
+            <!--grooming level-->
+            <div class="formInput col-xs-12 col-sm-4 col-md-3">
+            <h3>Grooming level:</h3>
+                <label>
+                    @Html.RadioButtonFor(Model => Model.GroomingLevel, MVCDogSelector.Models.EScale.Low)
+                       <span class="rBtn"></span>Low
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.GroomingLevel, MVCDogSelector.Models.EScale.Medium)
+                     <span class="rBtn"></span>Medium
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.GroomingLevel, MVCDogSelector.Models.EScale.High)
+                        <span class="rBtn"></span>High
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.GroomingLevel, MVCDogSelector.Models.EScale.NoPref, new { Checked = true })
+                       <span class="rBtn"></span>No preference
+                </label>
+                <br />
+                    @Html.ValidationMessageFor(Model => Model.GoodWithChildren)<br />
+			</div>
+            <!--intelegence level-->
+            <div class="formInput col-xs-12 col-sm-4 col-md-3">
+            <h3>Intelligence level:</h3>
+            <label>
+                    @Html.RadioButtonFor(Model => Model.IntelligenceLevel, MVCDogSelector.Models.EScale.Low)
+                        <span class="rBtn"></span>Low
+            </label>
+            <br />  
+            <label>
+                    @Html.RadioButtonFor(Model => Model.IntelligenceLevel, MVCDogSelector.Models.EScale.Medium)
+                    <span class="rBtn"></span>Medium
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.IntelligenceLevel, MVCDogSelector.Models.EScale.High)
+                    <span class="rBtn"></span>High
+                </label>
+                <br />  
+                <label>
+                    @Html.RadioButtonFor(Model => Model.IntelligenceLevel, MVCDogSelector.Models.EScale.NoPref, new { Checked = true })
+                    <span class="rBtn"></span>No preference
+                </label>
+                <br />
+            @Html.ValidationMessageFor(Model => Model.GoodWithChildren)<br />
+			</div>
+            <!--size-->
+            <div class="formInput col-xs-12 col-sm-4 col-md-3">
+            <h3>Size:</h3>
+            <select name="sizeSelect">
+            @foreach (string s in ViewBag.sizeList)
+            { 
+                <option>@s</option>
+            }
+             </select>
+			 </div>
+            
+            <div class="col-xs-12">
+                <input type="submit" value="submit" class="btnInput btn btn-primary btn-lg" id="btnSubmit" />
+			</div>
+        }
+    </div><!--end row-->
+</div><!--end container-->
+</body>
+</html>
