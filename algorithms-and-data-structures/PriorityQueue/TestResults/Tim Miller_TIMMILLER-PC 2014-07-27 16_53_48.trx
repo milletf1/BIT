@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8f77e072-bb00-49d3-9b2b-1b713718f30c" name="Tim Miller@TIMMILLER-PC 2014-07-27 16:53:48" runUser="TimMiller-PC\Tim Miller" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="405cfe34-b5be-42a3-b8d8-da40913b267e">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="H:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\TestResults\Tim Miller_TIMMILLER-PC 2014-07-27 16_53_48">
+      <DeploymentItem filename="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\PriorityQueue.exe" />
+      <DeploymentItem filename="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\UnitTesting\PriorityQueue_Accessor.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2014-07-27T16:53:48.3420014+12:00" queuing="2014-07-27T16:53:48.5610139+12:00" start="2014-07-27T16:53:48.7510248+12:00" finish="2014-07-27T16:53:48.9370354+12:00" />
+  <TestDefinitions>
+    <UnitTest name="PatientPriorityQueuePushTest" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="0c435967-9cbb-6555-354a-6450dcf275b1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="ca3b9a0a-2fb2-4d78-ad06-475b048c79bf" />
+      <TestMethod codeBase="H:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePushTest" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePushOrderingTest1" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="0b51f989-6f47-cdd3-9df2-eb6002b196aa">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="46d0ca12-d8df-4318-924f-e57df34aa31f" />
+      <TestMethod codeBase="H:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePushOrderingTest1" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePushOrderingTest2" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="1260a3fa-3b84-74a6-c58d-9906e2a3fd8c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="6e4bd8ad-b006-413f-80b7-408e08285b2e" />
+      <TestMethod codeBase="H:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePushOrderingTest2" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueueIsEmptyTrue" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="e2e77dd9-12b4-bda7-4a9d-58f66792a898">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="8b5e2e0e-8c0d-4ce5-bafe-fe52cec637c9" />
+      <TestMethod codeBase="H:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueueIsEmptyTrue" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="7491c77c-da9c-098e-ecd8-bca3f4e54129">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="10872e28-51f0-48ab-b562-d4e6892c9d15" />
+      <TestMethod codeBase="H:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest1, UnitTesting" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePushQueueFullTest" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="d3f838bf-f278-a4c7-eda3-d0560c140ecc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="fe971ddd-c10d-45e6-849a-84d5a65e8098" />
+      <TestMethod codeBase="H:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePushQueueFullTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b51f989-6f47-cdd3-9df2-eb6002b196aa" executionId="46d0ca12-d8df-4318-924f-e57df34aa31f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c435967-9cbb-6555-354a-6450dcf275b1" executionId="ca3b9a0a-2fb2-4d78-ad06-475b048c79bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1260a3fa-3b84-74a6-c58d-9906e2a3fd8c" executionId="6e4bd8ad-b006-413f-80b7-408e08285b2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7491c77c-da9c-098e-ecd8-bca3f4e54129" executionId="10872e28-51f0-48ab-b562-d4e6892c9d15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3f838bf-f278-a4c7-eda3-d0560c140ecc" executionId="fe971ddd-c10d-45e6-849a-84d5a65e8098" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2e77dd9-12b4-bda7-4a9d-58f66792a898" executionId="8b5e2e0e-8c0d-4ce5-bafe-fe52cec637c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="46d0ca12-d8df-4318-924f-e57df34aa31f" testId="0b51f989-6f47-cdd3-9df2-eb6002b196aa" testName="PatientPriorityQueuePushOrderingTest1" computerName="TIMMILLER-PC" duration="00:00:00.0658334" startTime="2014-07-27T16:53:48.7730260+12:00" endTime="2014-07-27T16:53:48.9070337+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushOrderingTest1 threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at Patient_Accessor.getPriority()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushOrderingTest1() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 91
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca3b9a0a-2fb2-4d78-ad06-475b048c79bf" testId="0c435967-9cbb-6555-354a-6450dcf275b1" testName="PatientPriorityQueuePushTest" computerName="TIMMILLER-PC" duration="00:00:00.0005504" startTime="2014-07-27T16:53:48.9080338+12:00" endTime="2014-07-27T16:53:48.9090338+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushTest threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at Patient_Accessor.getPriority()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushTest() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e4bd8ad-b006-413f-80b7-408e08285b2e" testId="1260a3fa-3b84-74a6-c58d-9906e2a3fd8c" testName="PatientPriorityQueuePushOrderingTest2" computerName="TIMMILLER-PC" duration="00:00:00.0005386" startTime="2014-07-27T16:53:48.9090338+12:00" endTime="2014-07-27T16:53:48.9100339+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushOrderingTest2 threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at Patient_Accessor.getPriority()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushOrderingTest2() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 106
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="10872e28-51f0-48ab-b562-d4e6892c9d15" testId="7491c77c-da9c-098e-ecd8-bca3f4e54129" testName="TestMethod1" computerName="TIMMILLER-PC" duration="00:00:00.0002069" startTime="2014-07-27T16:53:48.9110339+12:00" endTime="2014-07-27T16:53:48.9120340+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe971ddd-c10d-45e6-849a-84d5a65e8098" testId="d3f838bf-f278-a4c7-eda3-d0560c140ecc" testName="PatientPriorityQueuePushQueueFullTest" computerName="TIMMILLER-PC" duration="00:00:00.0031981" startTime="2014-07-27T16:53:48.9120340+12:00" endTime="2014-07-27T16:53:48.9160342+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b5e2e0e-8c0d-4ce5-bafe-fe52cec637c9" testId="e2e77dd9-12b4-bda7-4a9d-58f66792a898" testName="PatientPriorityQueueIsEmptyTrue" computerName="TIMMILLER-PC" duration="00:00:00.0003658" startTime="2014-07-27T16:53:48.9160342+12:00" endTime="2014-07-27T16:53:48.9170343+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

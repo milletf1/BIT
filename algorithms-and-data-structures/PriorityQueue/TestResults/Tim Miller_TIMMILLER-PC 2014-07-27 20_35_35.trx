@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="af8df904-c24b-466c-9297-8d7b82af8843" name="Tim Miller@TIMMILLER-PC 2014-07-27 20:35:35" runUser="TimMiller-PC\Tim Miller" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="405cfe34-b5be-42a3-b8d8-da40913b267e">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="H:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\TestResults\Tim Miller_TIMMILLER-PC 2014-07-27 20_35_35">
+      <DeploymentItem filename="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\PriorityQueue.exe" />
+      <DeploymentItem filename="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\UnitTesting\PriorityQueue_Accessor.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2014-07-27T20:35:35.4004757+12:00" queuing="2014-07-27T20:35:35.5834862+12:00" start="2014-07-27T20:35:35.7204940+12:00" finish="2014-07-27T20:35:35.7654966+12:00" />
+  <TestDefinitions>
+    <UnitTest name="PatientPriorityQueuePopThenCount" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="d0b55539-9808-2d9b-98cd-3789026e45a7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="3e29fabf-4171-49b7-be38-e00bf2e12186" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePopThenCount" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d0b55539-9808-2d9b-98cd-3789026e45a7" executionId="3e29fabf-4171-49b7-be38-e00bf2e12186" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3e29fabf-4171-49b7-be38-e00bf2e12186" testId="d0b55539-9808-2d9b-98cd-3789026e45a7" testName="PatientPriorityQueuePopThenCount" computerName="TIMMILLER-PC" duration="00:00:00.0186793" startTime="2014-07-27T20:35:35.7204940+12:00" endTime="2014-07-27T20:35:35.7624964+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

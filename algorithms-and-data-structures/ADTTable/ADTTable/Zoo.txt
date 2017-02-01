@@ -1,0 +1,14 @@
+93,Isolde,Tiger,16,9,Meat
+18,Hubcap,Orangutang,42,2,Fruit
+31,Carlos,Tiger,16,12,Meat
+64,Fluff,Rabbit,3,1,Grass
+57,Edgar,Tiger,17,3,Meat
+22,Bubbles,Chimpanzee,40,4,Fruit
+78,Gumdrop,Chimpanzee,40,3,Fruit
+11,Alice,Orangutan,42,8,Fruit
+49,Danny,Crocodile,11,5,Meat
+67,Peanut,Koala,24,6,Leaves
+19,Bob,Crocodile,11,34,Meat
+25,Fred,Gorilla,44,6,Fruit
+84,Tristan,Tiger,16,7,Meat
+26,Zippy,Giraffe,9,3,Leaves

@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8ba753e8-560e-4a0c-85e0-152f040e24cc" name="Tim Miller@TIMMILLER-PC 2014-07-28 14:08:44" runUser="TimMiller-PC\Tim Miller" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="405cfe34-b5be-42a3-b8d8-da40913b267e">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="H:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\TestResults\Tim Miller_TIMMILLER-PC 2014-07-28 14_08_44">
+      <DeploymentItem filename="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\PriorityQueue.exe" />
+      <DeploymentItem filename="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\UnitTesting\PriorityQueue_Accessor.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="18" executed="18" passed="1" error="0" failed="17" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2014-07-28T14:08:44.5157312+12:00" queuing="2014-07-28T14:08:45.2537734+12:00" start="2014-07-28T14:08:45.4547849+12:00" finish="2014-07-28T14:08:45.6547964+12:00" />
+  <TestDefinitions>
+    <UnitTest name="PatientPriorityQueuePopOne" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="e7518be8-5bd4-df73-bd79-345d1842fd5b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="e9389fc8-0dec-4d04-8a4d-d9f771a0d75e" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePopOne" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePushOrderingTest2" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="1260a3fa-3b84-74a6-c58d-9906e2a3fd8c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="bf1bfb94-f566-45d0-868e-9c2af5cc474e" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePushOrderingTest2" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePopThenCount" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="d0b55539-9808-2d9b-98cd-3789026e45a7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="831e136a-307c-4da9-81fb-a8157ca72065" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePopThenCount" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePeekThenCount" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="7e99b74d-46f0-103c-8fb5-b0501b0e1b07">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="7a3eb445-17e8-45b4-b4d6-f9d1635eb065" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePeekThenCount" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePeekEmpty" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="bd142d2a-2795-dd25-27b5-15b8c111f54f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="77325a7d-b1ab-4512-98f3-6040948f5a49" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePeekEmpty" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePopEmpty" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="41432813-2c38-bfec-e93b-17168bee09aa">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="fcab1be9-a88c-441f-9d8a-a75944e88a91" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePopEmpty" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePushTest" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="0c435967-9cbb-6555-354a-6450dcf275b1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="a5781dbf-7e60-436f-bb3c-4dc9793f046a" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePushTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="7491c77c-da9c-098e-ecd8-bca3f4e54129">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3071f8be-642a-4259-b751-09cdd8154773" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest1, UnitTesting" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePushOrderingTest1" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="0b51f989-6f47-cdd3-9df2-eb6002b196aa">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="612496ad-6a97-4ad3-b14f-9a2d8825fa07" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePushOrderingTest1" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePushQueueFullTest" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="d3f838bf-f278-a4c7-eda3-d0560c140ecc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="86fde81e-cc4c-4968-8505-2b41115e59fb" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePushQueueFullTest" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueueIsEmptyFalse" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="f0a5e2de-28d8-8c63-cf49-bc2586fe9a00">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="a61e84b6-2fc5-4e5d-83ad-9715594de1cf" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueueIsEmptyFalse" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePeekMany" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="48a9b903-cb8d-33db-fe44-265a7c77cd1e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="825a248f-2615-4de5-a538-a1dfd743185f" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePeekMany" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePopThenPeek" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="bb8ac6ed-32b8-2c44-fe52-d4530b6b61e1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="52cff20e-fdb2-4320-9a35-2a7220ac310c" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePopThenPeek" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueueIsEmptyTrue" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="e2e77dd9-12b4-bda7-4a9d-58f66792a898">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="b86bad66-1ce5-465b-9afe-98b28af2b412" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueueIsEmptyTrue" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueueCountTest" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="8356b128-e985-50d0-78e1-d6068bad2479">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="8bd3470a-176e-493a-b61e-5e43891b7776" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueueCountTest" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePopMany" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="7c361253-69bb-7ef3-00d0-d008821309d3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="00b146ec-2aee-48ff-b271-fcddacc6a0ea" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePopMany" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePeekOne" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="ee3cfbef-dc1c-f7a5-1bb7-fe069ff2da32">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="9e3bbab0-a274-474d-9db4-e012ea16b09d" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePeekOne" />
+    </UnitTest>
+    <UnitTest name="PatientPriorityQueuePeekThenPop" storage="h:\thirdyear\alogorithms and data structures\priorityqueue\debug\unittesting.dll" id="a244bbf9-c048-b069-7e5d-945a0ec12cd5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="PriorityQueue.exe" />
+      </DeploymentItems>
+      <Execution id="25e992c1-b7c6-4d33-876a-7bc3427e009b" />
+      <TestMethod codeBase="h:\ThirdYear\Alogorithms and Data Structures\PriorityQueue\Debug\UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.PatientPriorityQueueTest, UnitTesting" name="PatientPriorityQueuePeekThenPop" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b51f989-6f47-cdd3-9df2-eb6002b196aa" executionId="612496ad-6a97-4ad3-b14f-9a2d8825fa07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c435967-9cbb-6555-354a-6450dcf275b1" executionId="a5781dbf-7e60-436f-bb3c-4dc9793f046a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1260a3fa-3b84-74a6-c58d-9906e2a3fd8c" executionId="bf1bfb94-f566-45d0-868e-9c2af5cc474e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41432813-2c38-bfec-e93b-17168bee09aa" executionId="fcab1be9-a88c-441f-9d8a-a75944e88a91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48a9b903-cb8d-33db-fe44-265a7c77cd1e" executionId="825a248f-2615-4de5-a538-a1dfd743185f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7491c77c-da9c-098e-ecd8-bca3f4e54129" executionId="3071f8be-642a-4259-b751-09cdd8154773" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c361253-69bb-7ef3-00d0-d008821309d3" executionId="00b146ec-2aee-48ff-b271-fcddacc6a0ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e99b74d-46f0-103c-8fb5-b0501b0e1b07" executionId="7a3eb445-17e8-45b4-b4d6-f9d1635eb065" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8356b128-e985-50d0-78e1-d6068bad2479" executionId="8bd3470a-176e-493a-b61e-5e43891b7776" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a244bbf9-c048-b069-7e5d-945a0ec12cd5" executionId="25e992c1-b7c6-4d33-876a-7bc3427e009b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb8ac6ed-32b8-2c44-fe52-d4530b6b61e1" executionId="52cff20e-fdb2-4320-9a35-2a7220ac310c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd142d2a-2795-dd25-27b5-15b8c111f54f" executionId="77325a7d-b1ab-4512-98f3-6040948f5a49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0b55539-9808-2d9b-98cd-3789026e45a7" executionId="831e136a-307c-4da9-81fb-a8157ca72065" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3f838bf-f278-a4c7-eda3-d0560c140ecc" executionId="86fde81e-cc4c-4968-8505-2b41115e59fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2e77dd9-12b4-bda7-4a9d-58f66792a898" executionId="b86bad66-1ce5-465b-9afe-98b28af2b412" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7518be8-5bd4-df73-bd79-345d1842fd5b" executionId="e9389fc8-0dec-4d04-8a4d-d9f771a0d75e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee3cfbef-dc1c-f7a5-1bb7-fe069ff2da32" executionId="9e3bbab0-a274-474d-9db4-e012ea16b09d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0a5e2de-28d8-8c63-cf49-bc2586fe9a00" executionId="a61e84b6-2fc5-4e5d-83ad-9715594de1cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="612496ad-6a97-4ad3-b14f-9a2d8825fa07" testId="0b51f989-6f47-cdd3-9df2-eb6002b196aa" testName="PatientPriorityQueuePushOrderingTest1" computerName="TIMMILLER-PC" duration="00:00:00.0650474" startTime="2014-07-28T14:08:45.4757861+12:00" endTime="2014-07-28T14:08:45.6087937+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushOrderingTest1 threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushOrderingTest1() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5781dbf-7e60-436f-bb3c-4dc9793f046a" testId="0c435967-9cbb-6555-354a-6450dcf275b1" testName="PatientPriorityQueuePushTest" computerName="TIMMILLER-PC" duration="00:00:00.0005126" startTime="2014-07-28T14:08:45.6087937+12:00" endTime="2014-07-28T14:08:45.6097938+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushTest threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushTest() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf1bfb94-f566-45d0-868e-9c2af5cc474e" testId="1260a3fa-3b84-74a6-c58d-9906e2a3fd8c" testName="PatientPriorityQueuePushOrderingTest2" computerName="TIMMILLER-PC" duration="00:00:00.0004756" startTime="2014-07-28T14:08:45.6107939+12:00" endTime="2014-07-28T14:08:45.6117939+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushOrderingTest2 threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushOrderingTest2() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 104
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fcab1be9-a88c-441f-9d8a-a75944e88a91" testId="41432813-2c38-bfec-e93b-17168bee09aa" testName="PatientPriorityQueuePopEmpty" computerName="TIMMILLER-PC" duration="00:00:00.0004505" startTime="2014-07-28T14:08:45.6117939+12:00" endTime="2014-07-28T14:08:45.6127940+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopEmpty threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopEmpty() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 307
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="825a248f-2615-4de5-a538-a1dfd743185f" testId="48a9b903-cb8d-33db-fe44-265a7c77cd1e" testName="PatientPriorityQueuePeekMany" computerName="TIMMILLER-PC" duration="00:00:00.0005188" startTime="2014-07-28T14:08:45.6127940+12:00" endTime="2014-07-28T14:08:45.6137940+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekMany threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekMany() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 252
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3071f8be-642a-4259-b751-09cdd8154773" testId="7491c77c-da9c-098e-ecd8-bca3f4e54129" testName="TestMethod1" computerName="TIMMILLER-PC" duration="00:00:00.0002218" startTime="2014-07-28T14:08:45.6147941+12:00" endTime="2014-07-28T14:08:45.6157941+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="00b146ec-2aee-48ff-b271-fcddacc6a0ea" testId="7c361253-69bb-7ef3-00d0-d008821309d3" testName="PatientPriorityQueuePopMany" computerName="TIMMILLER-PC" duration="00:00:00.0006097" startTime="2014-07-28T14:08:45.6157941+12:00" endTime="2014-07-28T14:08:45.6167942+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopMany threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopMany() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 335
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a3eb445-17e8-45b4-b4d6-f9d1635eb065" testId="7e99b74d-46f0-103c-8fb5-b0501b0e1b07" testName="PatientPriorityQueuePeekThenCount" computerName="TIMMILLER-PC" duration="00:00:00.0005091" startTime="2014-07-28T14:08:45.6177943+12:00" endTime="2014-07-28T14:08:45.6187943+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekThenCount threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekThenCount() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 287
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8bd3470a-176e-493a-b61e-5e43891b7776" testId="8356b128-e985-50d0-78e1-d6068bad2479" testName="PatientPriorityQueueCountTest" computerName="TIMMILLER-PC" duration="00:00:00.0005036" startTime="2014-07-28T14:08:45.6187943+12:00" endTime="2014-07-28T14:08:45.6207944+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueueCountTest threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueueCountTest() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 204
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25e992c1-b7c6-4d33-876a-7bc3427e009b" testId="a244bbf9-c048-b069-7e5d-945a0ec12cd5" testName="PatientPriorityQueuePeekThenPop" computerName="TIMMILLER-PC" duration="00:00:00.0005396" startTime="2014-07-28T14:08:45.6207944+12:00" endTime="2014-07-28T14:08:45.6217945+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekThenPop threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekThenPop() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 352
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="52cff20e-fdb2-4320-9a35-2a7220ac310c" testId="bb8ac6ed-32b8-2c44-fe52-d4530b6b61e1" testName="PatientPriorityQueuePopThenPeek" computerName="TIMMILLER-PC" duration="00:00:00.0005982" startTime="2014-07-28T14:08:45.6217945+12:00" endTime="2014-07-28T14:08:45.6227945+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopThenPeek threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopThenPeek() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 269
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77325a7d-b1ab-4512-98f3-6040948f5a49" testId="bd142d2a-2795-dd25-27b5-15b8c111f54f" testName="PatientPriorityQueuePeekEmpty" computerName="TIMMILLER-PC" duration="00:00:00.0022387" startTime="2014-07-28T14:08:45.6237946+12:00" endTime="2014-07-28T14:08:45.6267948+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekEmpty threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekEmpty() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 223
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="831e136a-307c-4da9-81fb-a8157ca72065" testId="d0b55539-9808-2d9b-98cd-3789026e45a7" testName="PatientPriorityQueuePopThenCount" computerName="TIMMILLER-PC" duration="00:00:00.0006513" startTime="2014-07-28T14:08:45.6267948+12:00" endTime="2014-07-28T14:08:45.6277948+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopThenCount threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopThenCount() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 370
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="86fde81e-cc4c-4968-8505-2b41115e59fb" testId="d3f838bf-f278-a4c7-eda3-d0560c140ecc" testName="PatientPriorityQueuePushQueueFullTest" computerName="TIMMILLER-PC" duration="00:00:00.0008573" startTime="2014-07-28T14:08:45.6287949+12:00" endTime="2014-07-28T14:08:45.6297949+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushQueueFullTest threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePushQueueFullTest() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 120
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b86bad66-1ce5-465b-9afe-98b28af2b412" testId="e2e77dd9-12b4-bda7-4a9d-58f66792a898" testName="PatientPriorityQueueIsEmptyTrue" computerName="TIMMILLER-PC" duration="00:00:00.0004896" startTime="2014-07-28T14:08:45.6297949+12:00" endTime="2014-07-28T14:08:45.6317951+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueueIsEmptyTrue threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueueIsEmptyTrue() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 171
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9389fc8-0dec-4d04-8a4d-d9f771a0d75e" testId="e7518be8-5bd4-df73-bd79-345d1842fd5b" testName="PatientPriorityQueuePopOne" computerName="TIMMILLER-PC" duration="00:00:00.0005039" startTime="2014-07-28T14:08:45.6317951+12:00" endTime="2014-07-28T14:08:45.6327951+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopOne threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePopOne() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 320
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9e3bbab0-a274-474d-9db4-e012ea16b09d" testId="ee3cfbef-dc1c-f7a5-1bb7-fe069ff2da32" testName="PatientPriorityQueuePeekOne" computerName="TIMMILLER-PC" duration="00:00:00.0005526" startTime="2014-07-28T14:08:45.6327951+12:00" endTime="2014-07-28T14:08:45.6347952+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekOne threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueuePeekOne() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 237
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a61e84b6-2fc5-4e5d-83ad-9715594de1cf" testId="f0a5e2de-28d8-8c63-cf49-bc2586fe9a00" testName="PatientPriorityQueueIsEmptyFalse" computerName="TIMMILLER-PC" duration="00:00:00.0005060" startTime="2014-07-28T14:08:45.6347952+12:00" endTime="2014-07-28T14:08:45.6357953+12:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTesting.PatientPriorityQueueTest.PatientPriorityQueueIsEmptyFalse threw exception:  System.TypeInitializationException: The type initializer for 'PatientPriorityQueue_Accessor' threw an exception. ---&gt;  System.IO.FileNotFoundException: Could not load file or assembly 'PriorityQueue, Version=1.0.5321.31847, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+.</Message>
+          <StackTrace>    at System.Reflection.Assembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, Assembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at PatientPriorityQueue_Accessor..cctor()
+ --- End of inner exception stack trace ---
+    at PatientPriorityQueue_Accessor..ctor()
+   at UnitTesting.PatientPriorityQueueTest.PatientPriorityQueueIsEmptyFalse() in h:\thirdyear\alogorithms and data structures\priorityqueue\unittesting\patientpriorityqueuetest.cpp:line 185
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

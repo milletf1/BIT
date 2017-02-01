@@ -1,0 +1,2 @@
+The efficiency of searching a binary search tree should be O(log n).  
+This is because it uses a divide and conquer algorithm that splits the tree in half whenever it searches a node.

@@ -1,0 +1,1307 @@
+Assembly PriorityQueue_Accessor, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly PriorityQueue, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class Patient_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    System.String name 'get set' : 
+    Int32 priority 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    getName(): PrivateScope, Public, HideBySig
+    getPriority(): PrivateScope, Public, HideBySig
+    Giveth_name(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_name(String): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_priority(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_priority(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class PatientPriorityQueue_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 numberInQueue 'get set' : 
+    Patient_Accessor[] patientQueue 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    pop(): PrivateScope, Public, HideBySig
+    peek(): PrivateScope, Public, HideBySig
+    push(Patient_Accessor): PrivateScope, Public, HideBySig
+    isEmpty(): PrivateScope, Public, HideBySig
+    count(): PrivateScope, Public, HideBySig
+    getPatientQueue(): PrivateScope, Public, HideBySig
+    Giveth_numberInQueue(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_numberInQueue(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_patientQueue(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_patientQueue(Patient_Accessor[]): PrivateScope, Public, HideBySig, SpecialName
+Class PriorityQueue.Form1_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    System.Windows.Forms.ListBox lbPatientList 'get set' : 
+    System.Windows.Forms.Label label1 'get set' : 
+    System.Windows.Forms.Label label2 'get set' : 
+    System.Windows.Forms.Label label3 'get set' : 
+    System.Windows.Forms.Label label4 'get set' : 
+    System.Windows.Forms.Label label5 'get set' : 
+    System.Windows.Forms.Label label6 'get set' : 
+    System.Windows.Forms.TextBox tbPushPatient 'get set' : 
+    System.Windows.Forms.NumericUpDown numPatientPriority 'get set' : 
+    System.Windows.Forms.Button btnPushPatient 'get set' : 
+    System.Windows.Forms.TextBox tbPopPatient 'get set' : 
+    System.Windows.Forms.Label label7 'get set' : 
+    System.Windows.Forms.Button btnPopPatient 'get set' : 
+    System.Windows.Forms.Button btnPeekPatient 'get set' : 
+    System.Windows.Forms.TextBox tbPeekPatient 'get set' : 
+    System.Windows.Forms.Label label8 'get set' : 
+    System.ComponentModel.Container components 'get set' : 
+    PatientPriorityQueue_Accessor patientQueue 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    ~Form1(): PrivateScope, Public, HideBySig
+    InitializeComponent(): PrivateScope, Public, HideBySig
+    Form1_Load(Object, EventArgs): PrivateScope, Public, HideBySig
+    btnPushPatient_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    btnPeekPatient_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    btnPopPatient_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    displayPatients(): PrivateScope, Public, HideBySig
+    pushPatient(): PrivateScope, Public, HideBySig
+    peekPatient(): PrivateScope, Public, HideBySig
+    popPatient(): PrivateScope, Public, HideBySig
+    Dispose(Boolean(HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig
+    Giveth_lbPatientList(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_lbPatientList(ListBox): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_label1(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_label1(Label): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_label2(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_label2(Label): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_label3(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_label3(Label): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_label4(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_label4(Label): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_label5(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_label5(Label): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_label6(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_label6(Label): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_tbPushPatient(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_tbPushPatient(TextBox): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_numPatientPriority(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_numPatientPriority(NumericUpDown): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_btnPushPatient(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_btnPushPatient(Button): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_tbPopPatient(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_tbPopPatient(TextBox): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_label7(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_label7(Label): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_btnPopPatient(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_btnPopPatient(Button): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_btnPeekPatient(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_btnPeekPatient(Button): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_tbPeekPatient(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_tbPeekPatient(TextBox): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_label8(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_label8(Label): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_components(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_components(Container): PrivateScope, Public, HideBySig, SpecialName
+    Giveth_patientQueue(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_patientQueue(PatientPriorityQueue_Accessor): PrivateScope, Public, HideBySig, SpecialName
+Class vc_attributes.YesNoMaybe_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class vc_attributes.AccessType_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _EXCEPTION_DISPOSITION_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _SID_NAME_USE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _ACL_INFORMATION_CLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _AUDIT_EVENT_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _SECURITY_IMPERSONATION_LEVEL_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _TOKEN_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _TOKEN_ELEVATION_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _TOKEN_INFORMATION_CLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _MANDATORY_LEVEL_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _PS_RATE_PHASE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _JOBOBJECTINFOCLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _LOGICAL_PROCESSOR_RELATIONSHIP_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _PROCESSOR_CACHE_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _SYSTEM_POWER_STATE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _DEVICE_POWER_STATE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class IMAGE_AUX_SYMBOL_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class IMPORT_OBJECT_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class IMPORT_OBJECT_NAME_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class ReplacesCorHdrNumericDefines_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _HEAP_INFORMATION_CLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _ACTIVATION_CONTEXT_INFO_CLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _CM_SERVICE_NODE_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _CM_SERVICE_LOAD_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _CM_ERROR_CONTROL_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _TAPE_DRIVE_PROBLEM_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _TRANSACTION_OUTCOME_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _TRANSACTION_STATE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _TRANSACTION_INFORMATION_CLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _TRANSACTIONMANAGER_INFORMATION_CLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _RESOURCEMANAGER_INFORMATION_CLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _ENLISTMENT_INFORMATION_CLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _KTMOBJECT_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _MEMORY_RESOURCE_NOTIFICATION_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _PROC_THREAD_ATTRIBUTE_NUM_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _GET_FILEEX_INFO_LEVELS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _FINDEX_INFO_LEVELS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _FINDEX_SEARCH_OPS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _STREAM_INFO_LEVELS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _COMPUTER_NAME_FORMAT_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class SYSNLS_FUNCTION_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class SYSGEOTYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class SYSGEOCLASS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _SC_ACTION_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _SC_STATUS_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _SC_ENUM_TYPE_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class <CppImplementationDetails>.??_C@_1BC@EKMDCNOB@?$AAK?$AAE?$AAR?$AAN?$AAE?$AAL?$AA3?$AA2?$AA?$AA@$$BY0A@$$CB_W_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.??_C@_0O@JKAFBCMB@CreateActCtxW?$AA@$$BY0A@$$CBD_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _GUID_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CrtImplementationDetails>.ActivationContext_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CrtImplementationDetails>.LanguageSupport_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class gcroot<System::String ^>_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class HINSTANCE___Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class tagMSG_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class HWND___Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class tagACTCTXW_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.$ArrayType$$$BY00Q6MPBXXZ_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class tm_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class HDC___Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class tagRECT_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CrtImplementationDetails>.Progress_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CrtImplementationDetails>.Progress_Accessor+State: AutoLayout, AnsiClass, Class, NestedPublic
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class _SECURITY_ATTRIBUTES_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _TP_CALLBACK_ENVIRON_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _TP_CALLBACK_ENVIRON_Accessor+<unnamed-type-u>: AutoLayout, AnsiClass, Class, NestedPublic
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _TP_CALLBACK_ENVIRON_Accessor+<unnamed-type-u>+<unnamed-type-s>: AutoLayout, AnsiClass, Class, NestedPublic
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class tagTEXTMETRICA_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.??_C@_0CD@EJDHINOH@Corrupted?5pointer?5passed?5to?5_fre@$$BY0A@$$CBD_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.??_C@_1FE@KNPCCODH@?$AA?$CI?$AA?$CC?$AAC?$AAo?$AAr?$AAr?$AAu?$AAp?$AAt?$AAe?$AAd?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AAe?$AAr?$AA?5?$AAp?$AAa?$AAs?$AAs?$AAe?$AAd?$AA?5?$AAt?$AAo?$AA?5?$AA_?$AAf@$$BY0A@$$CB_W_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.??_C@_1GA@INJGGEBC@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@$$BY0A@$$CB_W_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CrtImplementationDetails>.AtExitLock_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _ldiv_t_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class localeinfo_struct_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CrtImplementationDetails>.ThisModule_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class EHExceptionRecord_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class EHExceptionRecord_Accessor+EHParameters: AutoLayout, AnsiClass, Class, NestedPublic
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _s_HandlerType_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _s_CatchableType_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _s_ThrowInfo_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class PMD_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _CONTEXT_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class FrameInfo_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _tiddata_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _EXCEPTION_POINTERS_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class std._Uninitialized_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class <CppImplementationDetails>.??_C@_1CI@IDCGDBOP@?$AAp?$AAN?$AAo?$AAd?$AAe?$AA?9?$AA?$DO?$AAn?$AAe?$AAx?$AAt?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AAN?$AAU?$AAL?$AAL?$AA?$AA@$$BY0A@$$CB_W_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.??_C@_1GG@MEEIPBGD@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@$$BY0A@$$CB_W_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.??_C@_1CM@OOICDMK@?$AAt?$AAy?$AAp?$AAe?$AA_?$AAi?$AAn?$AAf?$AAo?$AA?3?$AA?3?$AA_?$AAN?$AAa?$AAm?$AAe?$AA_?$AAb?$AAa?$AAs?$AAe?$AA?$AA@$$BY0A@$$CB_W_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.??_C@_1JK@MLBKHELP@?$AAs?$AAt?$AAr?$AAc?$AAp?$AAy?$AA_?$AAs?$AA?5?$AA?$CI?$AA?$CI?$AAc?$AAh?$AAa?$AAr?$AA?5?$AA?$CK?$AA?$CJ?$AA?$CI?$AA?$CI?$AAt?$AAy?$AAp?$AAe?$AA_?$AAi?$AAn?$AAf?$AAo?$AA?5?$AA?$CK?$AA?$CJ@$$BY0A@$$CB_W_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.??_C@_0BA@NOJDBDJO@?4?$DPAVtype_info?$EA?$EA?$AA@$$BY0A@$$CBD_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class type_info_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class __type_info_node_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class $_s__RTTIBaseClassArray$_extraBytes_4_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _s__RTTICompleteObjectLocator_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class <CppImplementationDetails>.$ArrayType$$$BY01Q6MXXZ_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class std._Mutex_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _s__RTTIClassHierarchyDescriptor_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class std._Lockit_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class $_TypeDescriptor$_extraBytes_16_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _s__RTTIBaseClassDescriptor2_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class std._Init_locks_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+Class _RTC_ErrorNumber_Accessor: AutoLayout, AnsiClass, Class, Public
+  :Microsoft.VisualStudio.TestTools.UnitTesting.BaseShadow
+    Void .cctor(): PrivateScope, Public, Static, SpecialName, RTSpecialName
+    Void .ctor(Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Microsoft.VisualStudio.TestTools.UnitTesting.PrivateType ShadowedType 'get ' : 
+    Int32 value__ 'get set' : 
+  Methods:
+    get_ShadowedType(): PrivateScope, Public, Static, HideBySig, SpecialName
+    AttachShadow(Object): PrivateScope, Public, Static
+    Giveth_value__(): PrivateScope, Public, HideBySig, SpecialName
+    Taketh_value__(Int32): PrivateScope, Public, HideBySig, SpecialName
